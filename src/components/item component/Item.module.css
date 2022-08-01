@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.image {
+    /* max-width: 200px; */
+    margin: 5px; 
+    width: 150px;
+    height: 150px;
+    align-content: center;
+    
+    
+}
+
+.info > div {
+    padding: 0px 10px 0px;
+    margin-top: 7px;
+}
+
+.container {
+    width: 200px;
+    
+}

@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.form > input, 
+.form > button {
+    padding: 5px;
+}
+
+.form > input {
+    margin-left: 10px;
+    width: 270px;
+}
+
+.button {
+    background-color: #631919;
+    border: currentColor;
+    color: white;
+}
