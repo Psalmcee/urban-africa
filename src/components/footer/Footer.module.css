@@ -3,9 +3,32 @@
 }
 
 .footer {
-    clear: both;
+    width: auto;
+    /* margin: auto; */
     position: relative;
     height: 200px;
-    margin-top: 200px;
-    background-color: sienna;
+    margin-top: 500px;
+    background-color: #9c3232;
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    padding-left: 7px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border: 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    background-color: #631919;
+    color: white;
+    border: 0px;
+}
+
+.button:hover {
+    background-color: #bb5a5a;
 }

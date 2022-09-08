@@ -6,7 +6,6 @@ import Shop from "./components/layout/shop/Shop";
 import News from "./components/layout/news/News";
 import Contact from "./components/header/header items/Contact";
 import Login from "./components/header/header items/Login"
-import SubHeaderCard from "./components/layout/SubHeaderCard";
 import Featured from "./components/Featured";
 import { Switch, Route } from "react-router-dom";
 import MainNavigation from "./components/layout/MainNavigation";
@@ -40,6 +39,7 @@ function App() {
               <Route path="/news"><News /></Route>
               <Route path="/contact"><Contact /></Route>
               <Route path="/login"><Login /></Route>
+              
             </Switch>
       <Footer />   
     

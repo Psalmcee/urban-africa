@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import classes from "./Search.module.css"
+
 
 export default function Search() {
     const searchRef = useRef();
@@ -9,9 +9,9 @@ export default function Search() {
         console.log(searchRef.current.value)
     }
     return (
-        <form onSubmit={submitHandler} className={classes.form}>
-            <input ref={searchRef}/>
-            <button className={classes.button}>Search</button>
+        <form onSubmit={submitHandler} className='flex'>
+            <input className='p-3 w-80 rounded-l border-0' ref={searchRef}/>
+            <button className='p-3 rounded-r border-current text-white bg-red-800'>Search</button>
         </form>
     )
 }
