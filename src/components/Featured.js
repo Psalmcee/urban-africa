@@ -11,9 +11,9 @@ const featuredItems = Data.tech.data.map(data => {
 
 export default function Featured() {
     return (
-        <div >
-            <h1 className='text-3xl font-bold text-red-700 m-4'>Featured</h1>
-            <section className="item--list">
+        <div className="m-8" >
+            <h1 className='text-3xl font-bold text-red-700'>Featured</h1>
+            <section className="grid grid-cols-1 md:grid-cols-2 md:mx-8 lg:flex flex-row ">
             {featuredItems}
             </section>
         </div>

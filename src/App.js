@@ -3,7 +3,6 @@ import Fashion from "./components/layout/fashion/Fashion";
 import Entertainment from "./components/layout/entertainment/Entertainment";
 import Tech from "./components/layout/tech/Tech";
 import Shop from "./components/layout/shop/Shop";
-import News from "./components/layout/news/News";
 import Contact from "./components/header/header items/Contact";
 import Login from "./components/header/header items/Login"
 import Featured from "./components/Featured";
@@ -36,7 +35,7 @@ function App() {
               <Route path="/fashion"><Fashion /></Route>
               <Route path="/tech"><Tech /></Route>
               <Route path="/shop"><Shop /></Route>
-              <Route path="/news"><News /></Route>
+
               <Route path="/contact"><Contact /></Route>
               <Route path="/login"><Login /></Route>
               

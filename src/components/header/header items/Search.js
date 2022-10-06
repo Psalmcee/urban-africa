@@ -11,7 +11,7 @@ export default function Search() {
     return (
         <form onSubmit={submitHandler} className='flex'>
             <input className='p-3 w-80 rounded-l border-0' ref={searchRef}/>
-            <button className='p-3 rounded-r border-current text-white bg-red-800'>Search</button>
+            <button className='p-3 rounded-r border-current font-bold text-white bg-red-900 hover:text-red-900 hover:bg-gray-100'>Search</button>
         </form>
     )
 }
