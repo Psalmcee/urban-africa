@@ -13,7 +13,7 @@ export default function Featured() {
     return (
         <div className="m-8" >
             <h1 className='text-3xl font-bold text-red-700'>Featured</h1>
-            <section className="grid grid-cols-1 md:grid-cols-2 md:mx-8 lg:flex flex-row ">
+            <section className="grid grid-cols-1 md:grid-cols-2 md:mx-8 lg:grid-cols-3 xl:flex xl:flex-row ">
             {featuredItems}
             </section>
         </div>
